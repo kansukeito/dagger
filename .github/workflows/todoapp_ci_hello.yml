@@ -36,7 +36,7 @@ jobs:
           version: 0.2
           cmds: |
             project update
-            do deploy
+            do test
         env:
           NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
 
